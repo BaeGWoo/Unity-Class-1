@@ -6,12 +6,13 @@ public class Create : MonoBehaviour
 {
     public GameObject obj;
 
+    // [ ]  [ ]  [ ] 생성
+    // ??   ??   ?? <- 파괴가 된 가비지 
+    // 가비지 컬렉터라는 게 동작을 해서 일정 주기마다 해제를 합니다.
+
+ 
     void Start()
     {
-        // 게임 오브젝트를 3개 동시에 생성시킵니다.
-        // x 축을 3의 배수로 띄워서 생성시켜야 합니다.
-
-        
         // 생성할 게임 오브젝트, 위치, 회전
         // Quaternion.identity = 회전값을 0,0,0으로 초기화합니다.
 
